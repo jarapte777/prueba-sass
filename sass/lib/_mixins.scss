@@ -1,0 +1,7 @@
+/*$MIXINS*/
+
+@mixin max-width ($max-width: 800px){
+	max-width: $max-width;
+	margin-left: auto;
+	margin-right: auto;
+}

@@ -1,1 +1,20 @@
 /*--$BUTTONS--*/
+
+.btn{ /*estilos del bloque btn*/
+	display: inline-block;
+	color: $buttoncolor;
+	background-color: $buttonbackgroundcolor;
+	line-height: 2.5;
+	border-radius: $border-radius;
+	font-size: $buttonfontsize;
+
+	&__icon{  /*de esta manera se le da estilos a un elemento (doble raya al piso) que este contenido dentro del bloque btn*/
+		font-size: .6em;
+	}
+
+	&.btn--info{ /*de esta manera se le da estilos particulares a un elemento sin alterar los principales*/
+		background-color: $color-info; 
+	}
+}
+
+	

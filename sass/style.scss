@@ -1,5 +1,6 @@
 /*Variables librerias y Settings*/
 @import "lib/_variables";
+@import "lib/mixins";
 
 /*Elementos base*/
 @import "base/_tablas";
@@ -7,5 +8,8 @@
 @import "base/_links";
 @import "base/_tipografia"; 
 
-/*Pages*/
-@import "pages/_home";
+/**/
+@import "layout/_layout";
+
+/*UTILITIES*/
+@import "components/_utilities";
